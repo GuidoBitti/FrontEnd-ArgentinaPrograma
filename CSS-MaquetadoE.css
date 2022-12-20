@@ -1,0 +1,205 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+body {
+    background-image: url(Portada-portafolio.jpg);
+    background-repeat: repeat-y;
+    color: #252525;
+}
+
+div.social{
+    background-color: #252525;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    padding: 17px 10px;
+}
+
+div.social div.nombre{
+    flex: 1 1 auto;
+    padding: 0px 10px;
+}
+
+div.social div.links{
+    flex: 1 1 auto;
+    text-align: end;
+}
+
+div.social div.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 5px;
+}
+
+div.social div.links a:hover{
+    color: rgba(255, 255, 255, 0.544);
+}
+
+div.profile{
+    height: 160px;
+    width: 25%;
+    padding: 140px 0px 0px 50px;
+}
+
+img.profile-photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+div.info-conteiner{
+    background-color: rgb(226, 215, 215);
+    margin: 140px 20px 0px 20px;
+    padding: 40px 0px 5px 35px;
+    border-radius: 16px;
+    display: flex;
+}
+
+div.description{
+    width: 50%;
+}
+
+div.description p {
+    margin-bottom: 8px;
+}
+div.description a{
+    text-decoration: none;
+    max-width: 200px;
+    color: #252525;
+}
+
+div.description a:hover{
+    color: #2525257e;
+}
+
+div.navegation{
+    width: 50%;
+}
+
+div.section{
+    display: flex;
+}
+
+div.section .logo{
+    height: 20px;
+    width: 30px;
+    text-align: center;
+}
+
+div.section a{
+    text-decoration: none;
+    color: #252525;
+    width: 100%;
+    display: flex;
+}
+
+div.section a p{
+    padding-top: 6px;
+    margin: 0px;
+}
+div.section a:hover{
+    color: #2525257e;
+}
+
+div.section a:active{
+    color: #252525;
+}
+
+h2.name{
+    width: 200px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+p.position, p.location{
+    width: 200px;
+    margin-bottom: 0px;
+}
+
+div.conteiner-1{
+    background-color: rgb(226, 215, 215);
+    margin: 20px;
+    padding: 5px;
+    border-radius: 16px;
+    height:auto;
+}
+
+div.image{
+    height: 80px;
+    width: 120px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.education{
+    padding-left: 10px;
+}
+
+div.education img, div.courses img{
+    height: 80px;
+    margin: 5px;
+}
+
+div.edu-conteiner{
+    display: flex;
+    padding: 5px;
+}
+
+div.data{
+    height: auto;
+}
+
+div.data h5, div.data h6{
+    font-weight: bold;
+    max-width: 330px;
+}
+
+div.skill-conteiner{
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+div.bar{
+    width: 90%;
+    text-align: left;
+}
+
+h5.name-s{
+    text-align: right;
+    width: 20%;
+}
+
+progress.bar{
+    width: 80%;
+    margin: 4px 10px;
+    height: 22px;
+}
+
+div.proyects-conteiner{
+    margin: 20px;
+}
+
+div.proyect{
+    background-color: rgb(226, 215, 215);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+img.Foto-proyecto{
+    width: 30%;
+    border-radius: 50%;
+}
+
+button{
+    margin: 2px !important;
+}
